@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22041DD21591B2FB002D0304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22041DD11591B2FB002D0304 /* UIKit.framework */; };
+		22041DD41591B2FB002D0304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22041DD31591B2FB002D0304 /* Foundation.framework */; };
+		22041DD61591B2FB002D0304 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22041DD51591B2FB002D0304 /* CoreGraphics.framework */; };
+		22041DDC1591B2FB002D0304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22041DDA1591B2FB002D0304 /* InfoPlist.strings */; };
+		22041DDE1591B2FB002D0304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22041DDD1591B2FB002D0304 /* main.m */; };
+		22041DE21591B2FB002D0304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22041DE11591B2FB002D0304 /* AppDelegate.m */; };
+		22041DE51591B2FB002D0304 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22041DE31591B2FB002D0304 /* MainStoryboard.storyboard */; };
+		22041DE81591B2FB002D0304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22041DE71591B2FB002D0304 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22041DCD1591B2FB002D0304 /* AR-intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22041DD11591B2FB002D0304 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22041DD31591B2FB002D0304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22041DD51591B2FB002D0304 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22041DD91591B2FB002D0304 /* AR-intro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AR-intro-Info.plist"; sourceTree = "<group>"; };
+		22041DDB1591B2FB002D0304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22041DDD1591B2FB002D0304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22041DDF1591B2FB002D0304 /* AR-intro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR-intro-Prefix.pch"; sourceTree = "<group>"; };
+		22041DE01591B2FB002D0304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22041DE11591B2FB002D0304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22041DE41591B2FB002D0304 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22041DE61591B2FB002D0304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22041DE71591B2FB002D0304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22041DCA1591B2FB002D0304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22041DD21591B2FB002D0304 /* UIKit.framework in Frameworks */,
+				22041DD41591B2FB002D0304 /* Foundation.framework in Frameworks */,
+				22041DD61591B2FB002D0304 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22041DC21591B2FB002D0304 = {
+			isa = PBXGroup;
+			children = (
+				22041DD71591B2FB002D0304 /* AR-intro */,
+				22041DD01591B2FB002D0304 /* Frameworks */,
+				22041DCE1591B2FB002D0304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22041DCE1591B2FB002D0304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22041DCD1591B2FB002D0304 /* AR-intro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22041DD01591B2FB002D0304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22041DD11591B2FB002D0304 /* UIKit.framework */,
+				22041DD31591B2FB002D0304 /* Foundation.framework */,
+				22041DD51591B2FB002D0304 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22041DD71591B2FB002D0304 /* AR-intro */ = {
+			isa = PBXGroup;
+			children = (
+				22041DE01591B2FB002D0304 /* AppDelegate.h */,
+				22041DE11591B2FB002D0304 /* AppDelegate.m */,
+				22041DE31591B2FB002D0304 /* MainStoryboard.storyboard */,
+				22041DE61591B2FB002D0304 /* ViewController.h */,
+				22041DE71591B2FB002D0304 /* ViewController.m */,
+				22041DD81591B2FB002D0304 /* Supporting Files */,
+			);
+			path = "AR-intro";
+			sourceTree = "<group>";
+		};
+		22041DD81591B2FB002D0304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22041DD91591B2FB002D0304 /* AR-intro-Info.plist */,
+				22041DDA1591B2FB002D0304 /* InfoPlist.strings */,
+				22041DDD1591B2FB002D0304 /* main.m */,
+				22041DDF1591B2FB002D0304 /* AR-intro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22041DCC1591B2FB002D0304 /* AR-intro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22041DEB1591B2FB002D0304 /* Build configuration list for PBXNativeTarget "AR-intro" */;
+			buildPhases = (
+				22041DC91591B2FB002D0304 /* Sources */,
+				22041DCA1591B2FB002D0304 /* Frameworks */,
+				22041DCB1591B2FB002D0304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-intro";
+			productName = "AR-intro";
+			productReference = 22041DCD1591B2FB002D0304 /* AR-intro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22041DC41591B2FB002D0304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 22041DC71591B2FB002D0304 /* Build configuration list for PBXProject "AR-intro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22041DC21591B2FB002D0304;
+			productRefGroup = 22041DCE1591B2FB002D0304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22041DCC1591B2FB002D0304 /* AR-intro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22041DCB1591B2FB002D0304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22041DDC1591B2FB002D0304 /* InfoPlist.strings in Resources */,
+				22041DE51591B2FB002D0304 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22041DC91591B2FB002D0304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22041DDE1591B2FB002D0304 /* main.m in Sources */,
+				22041DE21591B2FB002D0304 /* AppDelegate.m in Sources */,
+				22041DE81591B2FB002D0304 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22041DDA1591B2FB002D0304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22041DDB1591B2FB002D0304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22041DE31591B2FB002D0304 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22041DE41591B2FB002D0304 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22041DE91591B2FB002D0304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22041DEA1591B2FB002D0304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22041DEC1591B2FB002D0304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR-intro/AR-intro-Prefix.pch";
+				INFOPLIST_FILE = "AR-intro/AR-intro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22041DED1591B2FB002D0304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AR-intro/AR-intro-Prefix.pch";
+				INFOPLIST_FILE = "AR-intro/AR-intro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22041DC71591B2FB002D0304 /* Build configuration list for PBXProject "AR-intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22041DE91591B2FB002D0304 /* Debug */,
+				22041DEA1591B2FB002D0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22041DEB1591B2FB002D0304 /* Build configuration list for PBXNativeTarget "AR-intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22041DEC1591B2FB002D0304 /* Debug */,
+				22041DED1591B2FB002D0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22041DC41591B2FB002D0304 /* Project object */;
+}
